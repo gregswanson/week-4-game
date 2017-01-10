@@ -1,13 +1,4 @@
-/* 
 
-font-family: 'Mouse Memoirs', sans-serif;
-
-font-family: 'Lobster Two', cursive;
-
-font-family: 'Slackey', cursive;
-
-
-*/
 
 body{
 	background-color: #125e92;
@@ -29,7 +20,7 @@ h1 {
 	line-height: 1;
 }
 
-#directions {
+.directions {
 	font-family: 'Mouse Memoirs', sans-serif;
 	font-size: 16pt;
 	color: #51a3db;
@@ -47,10 +38,7 @@ h1 {
 	padding: 10px 0px;
 	background-color: #fff;
 	overflow: hidden;
-
 }
-
-
 
 .scoreWin {
 	font-family: 'Mouse Memoirs', sans-serif;
@@ -200,7 +188,7 @@ h1 {
 		}
     }
 
-    /* Medium Devices, Desktops */
+/* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
     	h1 {
 			font-size: 5em;
@@ -213,7 +201,7 @@ h1 {
 
     }
 
-    /* Small Devices, Tablets */
+/* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     	h1 {
 			font-size: 4.5em;
